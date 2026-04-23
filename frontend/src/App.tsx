@@ -4,7 +4,7 @@ import { parseResume, SkillProfile } from './lib/resumeParser'
 import { performGapAnalysis, GapAnalysisResult } from './lib/gapAnalysis'
 import { generateRoadmap, PersonalizedRoadmap } from './lib/roadmapGenerator'
 
-const MOCK_REQUIRED_SKILLS = {
+const MOCK_REQUIRED_SKILLS: Record<string, { name: string; category: "technical" | "soft" | "domain"; confidence: number }[]> = {
   'Frontend Engineer': [
     { name: 'javascript', category: 'technical', confidence: 1 },
     { name: 'typescript', category: 'technical', confidence: 1 },
@@ -71,13 +71,8 @@ export default function App() {
   const [jobDescription, setJobDescription] = useState('')
   const [gapAnalysis, setGapAnalysis] = useState<GapAnalysisResult | null>(null)
   const [roadmap, setRoadmap] = useState<PersonalizedRoadmap | null>(null)
-  const [isLoaded, setIsLoaded] = useState(false)
   
   const API_BASE = 'http://localhost:8787'
-
-  useEffect(() => {
-    setTimeout(() => setIsLoaded(true), 100)
-  }, [])
 
   const steps = ['UPLOAD', 'ROLE', 'ANALYSIS', 'ROADMAP']
 
@@ -342,7 +337,7 @@ export default function App() {
                   { type: 'adjacent', count: gapAnalysis.gaps.filter(g => g.gapType === 'adjacent').length },
                   { type: 'new', count: gapAnalysis.gaps.filter(g => g.gapType === 'new').length },
                   { type: 'critical', count: gapAnalysis.gaps.filter(g => g.gapType === 'critical').length }
-                ].map((item, i) => (
+                ].map((item) => (
                   <div key={item.type} className="raw-card p-4 text-center glitch-hover">
                     <div 
                       className="text-2xl font-mono mb-2"
