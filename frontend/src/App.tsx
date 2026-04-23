@@ -72,7 +72,7 @@ export default function App() {
   const [gapAnalysis, setGapAnalysis] = useState<GapAnalysisResult | null>(null)
   const [roadmap, setRoadmap] = useState<PersonalizedRoadmap | null>(null)
   
-  const API_BASE = 'http://localhost:8787'
+  const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8787'
 
   const steps = ['UPLOAD', 'ROLE', 'ANALYSIS', 'ROADMAP']
 
