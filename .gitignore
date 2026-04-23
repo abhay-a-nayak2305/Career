@@ -28,6 +28,8 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+.dev.vars
+backend/.dev.vars
 
 # Wrangler
 backend/.wrangler
