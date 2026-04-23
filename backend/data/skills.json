@@ -1,0 +1,382 @@
+﻿{
+  "skills": [
+    {
+      "name": "JavaScript",
+      "category": "language",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.98
+    },
+    {
+      "name": "TypeScript",
+      "category": "language",
+      "difficulty": 3,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.92
+    },
+    {
+      "name": "Python",
+      "category": "language",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.95
+    },
+    {
+      "name": "Go",
+      "category": "language",
+      "difficulty": 3,
+      "prerequisites": [],
+      "popularity": 0.72
+    },
+    {
+      "name": "Rust",
+      "category": "language",
+      "difficulty": 5,
+      "prerequisites": [],
+      "popularity": 0.65
+    },
+    {
+      "name": "Java",
+      "category": "language",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.85
+    },
+    {
+      "name": "C#",
+      "category": "language",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.78
+    },
+    {
+      "name": "Ruby",
+      "category": "language",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.68
+    },
+    {
+      "name": "PHP",
+      "category": "language",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.75
+    },
+    {
+      "name": "SQL",
+      "category": "language",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.93
+    },
+    {
+      "name": "React",
+      "category": "frontend",
+      "difficulty": 3,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.94
+    },
+    {
+      "name": "Vue.js",
+      "category": "frontend",
+      "difficulty": 2,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.75
+    },
+    {
+      "name": "Angular",
+      "category": "frontend",
+      "difficulty": 4,
+      "prerequisites": ["TypeScript"],
+      "popularity": 0.68
+    },
+    {
+      "name": "Next.js",
+      "category": "frontend",
+      "difficulty": 3,
+      "prerequisites": ["React"],
+      "popularity": 0.88
+    },
+    {
+      "name": "Svelte",
+      "category": "frontend",
+      "difficulty": 2,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.58
+    },
+    {
+      "name": "Remix",
+      "category": "frontend",
+      "difficulty": 3,
+      "prerequisites": ["React"],
+      "popularity": 0.48
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "frontend",
+      "difficulty": 1,
+      "prerequisites": ["CSS"],
+      "popularity": 0.85
+    },
+    {
+      "name": "CSS",
+      "category": "frontend",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.97
+    },
+    {
+      "name": "HTML",
+      "category": "frontend",
+      "difficulty": 1,
+      "prerequisites": [],
+      "popularity": 0.99
+    },
+    {
+      "name": "Node.js",
+      "category": "backend",
+      "difficulty": 3,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.92
+    },
+    {
+      "name": "Express.js",
+      "category": "backend",
+      "difficulty": 2,
+      "prerequisites": ["Node.js"],
+      "popularity": 0.87
+    },
+    {
+      "name": "NestJS",
+      "category": "backend",
+      "difficulty": 4,
+      "prerequisites": ["Node.js", "TypeScript"],
+      "popularity": 0.65
+    },
+    {
+      "name": "Django",
+      "category": "backend",
+      "difficulty": 4,
+      "prerequisites": ["Python"],
+      "popularity": 0.72
+    },
+    {
+      "name": "FastAPI",
+      "category": "backend",
+      "difficulty": 2,
+      "prerequisites": ["Python"],
+      "popularity": 0.78
+    },
+    {
+      "name": "Flask",
+      "category": "backend",
+      "difficulty": 2,
+      "prerequisites": ["Python"],
+      "popularity": 0.68
+    },
+    {
+      "name": "Spring Boot",
+      "category": "backend",
+      "difficulty": 4,
+      "prerequisites": ["Java"],
+      "popularity": 0.75
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "database",
+      "difficulty": 3,
+      "prerequisites": ["SQL"],
+      "popularity": 0.88
+    },
+    {
+      "name": "MySQL",
+      "category": "database",
+      "difficulty": 3,
+      "prerequisites": ["SQL"],
+      "popularity": 0.82
+    },
+    {
+      "name": "MongoDB",
+      "category": "database",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.78
+    },
+    {
+      "name": "Redis",
+      "category": "database",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.82
+    },
+    {
+      "name": "Elasticsearch",
+      "category": "database",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.58
+    },
+    {
+      "name": "Docker",
+      "category": "devops",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.88
+    },
+    {
+      "name": "Kubernetes",
+      "category": "devops",
+      "difficulty": 5,
+      "prerequisites": ["Docker"],
+      "popularity": 0.78
+    },
+    {
+      "name": "AWS",
+      "category": "devops",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.85
+    },
+    {
+      "name": "GCP",
+      "category": "devops",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.65
+    },
+    {
+      "name": "Azure",
+      "category": "devops",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.62
+    },
+    {
+      "name": "Terraform",
+      "category": "devops",
+      "difficulty": 3,
+      "prerequisites": [],
+      "popularity": 0.72
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "devops",
+      "difficulty": 2,
+      "prerequisites": ["Git"],
+      "popularity": 0.75
+    },
+    {
+      "name": "Git",
+      "category": "devops",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.97
+    },
+    {
+      "name": "GraphQL",
+      "category": "api",
+      "difficulty": 3,
+      "prerequisites": ["REST"],
+      "popularity": 0.68
+    },
+    {
+      "name": "REST API",
+      "category": "api",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.94
+    },
+    {
+      "name": "gRPC",
+      "category": "api",
+      "difficulty": 4,
+      "prerequisites": [],
+      "popularity": 0.48
+    },
+    {
+      "name": "Pandas",
+      "category": "data",
+      "difficulty": 3,
+      "prerequisites": ["Python"],
+      "popularity": 0.78
+    },
+    {
+      "name": "NumPy",
+      "category": "data",
+      "difficulty": 3,
+      "prerequisites": ["Python"],
+      "popularity": 0.72
+    },
+    {
+      "name": "TensorFlow",
+      "category": "ai",
+      "difficulty": 5,
+      "prerequisites": ["Python", "NumPy"],
+      "popularity": 0.65
+    },
+    {
+      "name": "PyTorch",
+      "category": "ai",
+      "difficulty": 5,
+      "prerequisites": ["Python", "NumPy"],
+      "popularity": 0.72
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "ai",
+      "difficulty": 4,
+      "prerequisites": ["Python", "NumPy", "Pandas"],
+      "popularity": 0.68
+    },
+    {
+      "name": "Jest",
+      "category": "testing",
+      "difficulty": 2,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.75
+    },
+    {
+      "name": "Cypress",
+      "category": "testing",
+      "difficulty": 2,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.58
+    },
+    {
+      "name": "Playwright",
+      "category": "testing",
+      "difficulty": 2,
+      "prerequisites": ["JavaScript"],
+      "popularity": 0.52
+    },
+    {
+      "name": "Figma",
+      "category": "design",
+      "difficulty": 2,
+      "prerequisites": [],
+      "popularity": 0.78
+    },
+    {
+      "name": "Linux",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "prerequisites": [],
+      "popularity": 0.85
+    },
+    {
+      "name": "Bash",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "prerequisites": ["Linux"],
+      "popularity": 0.72
+    },
+    {
+      "name": "Nginx",
+      "category": "infrastructure",
+      "difficulty": 3,
+      "prerequisites": ["Linux"],
+      "popularity": 0.68
+    }
+  ]
+}

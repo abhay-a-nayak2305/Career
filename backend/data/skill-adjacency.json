@@ -1,0 +1,125 @@
+﻿{
+  "javascript": {
+    "typescript": 0.8,
+    "react": 0.7,
+    "vue.js": 0.6,
+    "angular": 0.5,
+    "node.js": 0.7,
+    "express.js": 0.6,
+    "nestjs": 0.5,
+    "python": 0.4,
+    "go": 0.3,
+    "rust": 0.2,
+    "java": 0.3,
+    "c#": 0.3,
+    "jest": 0.7,
+    "cypress": 0.6,
+    "playwright": 0.6,
+    "graphql": 0.5,
+    "rest api": 0.6
+  },
+  "typescript": {
+    "javascript": 0.9,
+    "react": 0.8,
+    "vue.js": 0.7,
+    "angular": 0.7,
+    "next.js": 0.7,
+    "nestjs": 0.7,
+    "node.js": 0.8,
+    "c#": 0.5,
+    "java": 0.4,
+    "go": 0.4,
+    "rust": 0.3
+  },
+  "react": {
+    "vue.js": 0.7,
+    "angular": 0.5,
+    "svelte": 0.6,
+    "next.js": 0.8,
+    "remix": 0.75,
+    "typescript": 0.6,
+    "javascript": 0.9,
+    "tailwind css": 0.5,
+    "jest": 0.6,
+    "cypress": 0.5,
+    "graphql": 0.4
+  },
+  "python": {
+    "go": 0.5,
+    "rust": 0.3,
+    "java": 0.4,
+    "javascript": 0.4,
+    "typescript": 0.3,
+    "django": 0.6,
+    "flask": 0.7,
+    "fastapi": 0.7,
+    "pandas": 0.7,
+    "numpy": 0.6,
+    "tensorflow": 0.5,
+    "pytorch": 0.5,
+    "scikit-learn": 0.5
+  },
+  "node.js": {
+    "express.js": 0.8,
+    "nestjs": 0.7,
+    "javascript": 0.7,
+    "typescript": 0.7,
+    "django": 0.4,
+    "flask": 0.5,
+    "go": 0.4,
+    "graphql": 0.5,
+    "rest api": 0.7,
+    "postgresql": 0.4,
+    "mongodb": 0.5
+  },
+  "postgresql": {
+    "mysql": 0.7,
+    "sql": 0.9,
+    "mongodb": 0.4,
+    "cassandra": 0.3,
+    "redis": 0.4,
+    "elasticsearch": 0.3
+  },
+  "docker": {
+    "kubernetes": 0.6,
+    "aws": 0.5,
+    "terraform": 0.5,
+    "gcp": 0.4,
+    "azure": 0.4,
+    "linux": 0.5,
+    "bash": 0.4,
+    "nginx": 0.4
+  },
+  "aws": {
+    "gcp": 0.7,
+    "azure": 0.7,
+    "kubernetes": 0.5,
+    "terraform": 0.6,
+    "docker": 0.5,
+    "linux": 0.4,
+    "nginx": 0.4
+  },
+  "git": {
+    "github actions": 0.6,
+    "linux": 0.3
+  },
+  "django": {
+    "flask": 0.6,
+    "fastapi": 0.5,
+    "python": 0.7,
+    "postgresql": 0.5,
+    "express.js": 0.4
+  },
+  "sql": {
+    "postgresql": 0.8,
+    "mysql": 0.8,
+    "mongodb": 0.3,
+    "elasticsearch": 0.4
+  },
+  "next.js": {
+    "react": 0.8,
+    "remix": 0.7,
+    "typescript": 0.7,
+    "tailwind css": 0.5
+  }
+}

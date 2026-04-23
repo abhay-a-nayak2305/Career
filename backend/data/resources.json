@@ -1,0 +1,104 @@
+﻿[
+  {
+    "skill": "JavaScript",
+    "resources": [
+      { "title": "JavaScript Info", "url": "https://javascript.info/", "type": "documentation", "quality": 10 },
+      { "title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "type": "documentation", "quality": 10 },
+      { "title": "You Don't Know JS", "url": "https://github.com/getify/You-Dont-Know-JS", "type": "book", "quality": 9 },
+      { "title": "JavaScript The Hard Parts", "url": "https://frontendmasters.com/courses/javascript-hard-parts-v2/", "type": "course", "quality": 10 }
+    ]
+  },
+  {
+    "skill": "TypeScript",
+    "resources": [
+      { "title": "TypeScript Docs", "url": "https://www.typescriptlang.org/docs/", "type": "documentation", "quality": 10 },
+      { "title": "Total TypeScript", "url": "https://www.totaltypescript.com/tutorials", "type": "course", "quality": 10 },
+      { "title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "documentation", "quality": 9 },
+      { "title": "TypeScript Exercises", "url": "https://typescript-exercises.github.io/", "type": "practice", "quality": 8 }
+    ]
+  },
+  {
+    "skill": "React",
+    "resources": [
+      { "title": "React Official Docs", "url": "https://react.dev/learn", "type": "documentation", "quality": 10 },
+      { "title": "React Beta Tutorial", "url": "https://react.dev/tutorial", "type": "tutorial", "quality": 10 },
+      { "title": "Epic React", "url": "https://epicreact.dev/", "type": "course", "quality": 9 },
+      { "title": "React Patterns", "url": "https://reactpatterns.com/", "type": "reference", "quality": 8 }
+    ]
+  },
+  {
+    "skill": "Next.js",
+    "resources": [
+      { "title": "Next.js Docs", "url": "https://nextjs.org/docs", "type": "documentation", "quality": 10 },
+      { "title": "Next.js Learn", "url": "https://nextjs.org/learn", "type": "course", "quality": 10 },
+      { "title": "Vercel Next.js Course", "url": "https://vercel.com/learn/nextjs", "type": "course", "quality": 9 }
+    ]
+  },
+  {
+    "skill": "Node.js",
+    "resources": [
+      { "title": "Node.js Docs", "url": "https://nodejs.org/docs/latest/api/", "type": "documentation", "quality": 10 },
+      { "title": "Express Guide", "url": "https://expressjs.com/en/guide/routing.html", "type": "tutorial", "quality": 9 },
+      { "title": "Node.js Best Practices", "url": "https://github.com/goldbergyoni/nodebestpractices", "type": "reference", "quality": 10 }
+    ]
+  },
+  {
+    "skill": "PostgreSQL",
+    "resources": [
+      { "title": "PostgreSQL Docs", "url": "https://www.postgresql.org/docs/", "type": "documentation", "quality": 10 },
+      { "title": "Postgres Tutorial", "url": "https://www.postgresqltutorial.com/", "type": "tutorial", "quality": 9 },
+      { "title": "SQL Bolt", "url": "https://sqlbolt.com/", "type": "tutorial", "quality": 9 },
+      { "title": "Use The Index, Luke", "url": "https://use-the-index-luke.com/", "type": "book", "quality": 10 }
+    ]
+  },
+  {
+    "skill": "Docker",
+    "resources": [
+      { "title": "Docker Docs", "url": "https://docs.docker.com/", "type": "documentation", "quality": 10 },
+      { "title": "Docker Curriculum", "url": "https://docker-curriculum.com/", "type": "course", "quality": 9 },
+      { "title": "Docker for Beginners", "url": "https://docker-swarm.rocks/", "type": "tutorial", "quality": 8 }
+    ]
+  },
+  {
+    "skill": "Kubernetes",
+    "resources": [
+      { "title": "Kubernetes Docs", "url": "https://kubernetes.io/docs/", "type": "documentation", "quality": 10 },
+      { "title": "Kubernetes Tutorial", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "tutorial", "quality": 9 },
+      { "title": "Kubernetes Up & Running", "url": "https://www.oreilly.com/library/view/kubernetes-up-and/9781491935669/", "type": "book", "quality": 10 }
+    ]
+  },
+  {
+    "skill": "Python",
+    "resources": [
+      { "title": "Python Docs", "url": "https://docs.python.org/3/", "type": "documentation", "quality": 10 },
+      { "title": "Python Tutorial", "url": "https://docs.python.org/3/tutorial/", "type": "tutorial", "quality": 9 },
+      { "title": "Real Python", "url": "https://realpython.com/", "type": "tutorial", "quality": 9 },
+      { "title": "Automate the Boring Stuff", "url": "https://automatetheboringstuff.com/", "type": "book", "quality": 10 }
+    ]
+  },
+  {
+    "skill": "Git",
+    "resources": [
+      { "title": "Git Docs", "url": "https://git-scm.com/doc", "type": "documentation", "quality": 10 },
+      { "title": "Pro Git Book", "url": "https://git-scm.com/book/en/v2", "type": "book", "quality": 10 },
+      { "title": "Git Immersion", "url": "https://gitimmersion.com/", "type": "tutorial", "quality": 9 },
+      { "title": "Oh My Git", "url": "https://ohmygit.org/", "type": "game", "quality": 8 }
+    ]
+  },
+  {
+    "skill": "Tailwind CSS",
+    "resources": [
+      { "title": "Tailwind Docs", "url": "https://tailwindcss.com/docs", "type": "documentation", "quality": 10 },
+      { "title": "Tailwind UI", "url": "https://tailwindui.com/", "type": "components", "quality": 9 },
+      { "title": "Tailwind Best Practices", "url": "https://tailwindcss.com/docs/editor-setup", "type": "guide", "quality": 8 }
+    ]
+  },
+  {
+    "skill": "AWS",
+    "resources": [
+      { "title": "AWS Docs", "url": "https://docs.aws.amazon.com/", "type": "documentation", "quality": 10 },
+      { "title": "AWS Well-Architected", "url": "https://aws.amazon.com/architecture/well-architected/", "type": "guide", "quality": 9 },
+      { "title": "AWS Training", "url": "https://aws.amazon.com/training/", "type": "course", "quality": 8 }
+    ]
+  }
+]

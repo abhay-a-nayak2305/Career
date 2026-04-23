@@ -1,0 +1,9 @@
+name = "careerpath-ai-api"
+main = "src/index.ts"
+compatibility_date = "2024-04-22"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+OPENROUTER_API_KEY = "your-openrouter-api-key"
+PINECONE_API_KEY = "your-pinecone-api-key"
+PINECONE_INDEX = "career-path"

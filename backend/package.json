@@ -1,0 +1,27 @@
+{
+  "name": "careerpath-ai-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "wrangler build",
+    "seed": "npx tsx scripts/seed-pinecone.ts",
+    "seed:esco": "npx tsx scripts/seed-esco.ts"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.1.0",
+    "@pinecone-database/pinecone": "^2.2.0",
+    "hono": "^4.2.9",
+    "openai": "^4.38.5",
+    "pdfkit": "^0.18.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240423.0",
+    "@types/node": "^20.12.7",
+    "dotenv": "^17.4.2",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5",
+    "wrangler": "^4.84.1"
+  }
+}
