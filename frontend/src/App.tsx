@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback } from 'react'
 import { Upload, Map, Zap, Shield, Lock, Clock, Award, TrendingUp, ChevronRight, BarChart3 } from 'lucide-react'
 import { parseResume, SkillProfile } from './lib/resumeParser'
 import { performGapAnalysis, GapAnalysisResult } from './lib/gapAnalysis'
